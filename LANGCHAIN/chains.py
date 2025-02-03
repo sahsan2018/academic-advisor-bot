@@ -59,7 +59,7 @@ current_dir = Path(__file__).parent
 #     embeddings=embeddings, 
 #     allow_dangerous_deserialization=True
 # )
-vector = FAISS.load_local(folder_path="./faissindexupdate6", embeddings=embeddings, allow_dangerous_deserialization=True, index_name='index')
+vector = FAISS.load_local(folder_path="../faissindexupdate6", embeddings=embeddings, allow_dangerous_deserialization=True, index_name='index')
 # Create document chain
 document_chain = create_stuff_documents_chain(chat_model, prompt_template)
 
