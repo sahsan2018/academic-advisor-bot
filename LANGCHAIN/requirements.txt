@@ -2,6 +2,7 @@ flask
 python-dotenv
 langchain
 langchain-google-genai
+langchain-openai
 langchain-community
 langchain-core
 faiss-cpu
