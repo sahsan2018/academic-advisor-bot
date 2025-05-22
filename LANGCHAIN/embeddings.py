@@ -14,7 +14,7 @@ os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 from langchain_openai import ChatOpenAI
 
 chat_model = ChatOpenAI(
-    model="gpt-4o",
+    model="gpt-4o-mini",
     temperature=0,
     max_tokens=None,
     timeout=None,
